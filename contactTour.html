@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+      background-image: url("background.jpeg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      
+    }
+    </style>
+</head>
+<body>
+ <form method="post" action="url">
+<table>
+<tr>   
+    <td> 
+    <label for="firstname">
+        enter your name </label>
+    </td> 
+    <td>
+        <input type="text" name="firstname">
+    </td>   
+</tr> 
+        
+    
+<tr>
+    <td>
+        <label for="lastname">
+            enter your Last name </label>  
+    </td>
+    <td>
+        <input type="text" name="lastname" id="lastname">
+    </td>
+</tr> 
+<tr>
+        <td>
+        <label for="">addressarea </label> textarea
+    </td>
+    <td>
+        <textarea id="txt" name="txt" rows="4" col="3"></textarea>
+    </td>
+ </tr>   
+<tr>
+    <td><label for="age">AGE</label> </td>
+     <td><input type="number" value="18" readonly disabled>  </td> 
+       
+
+</tr>
+<tr>
+     <td><label for="email">EMAIL</label></td>
+     <td><input type="email" placeholder="abc@gmail.com"></td>
+
+</tr>
+<tr>
+
+        <td><label for="password">enter password</label></td>
+        <td><input type="password" placeholder="plz enter password"></td>
+
+</tr>
+<tr>
+   <td>
+    <label for="travel">service:</label>
+    </td>
+    <td>
+    Tour<input name="travel" type="radio">
+    Ticket<input type="radio" name="travel">
+    taxi<input type="radio" name="travel">
+   </td>
+</tr>
+<tr>
+     <td> <label for="Tour Package">Tour Package:</label></td>  
+       <td>
+        North india<input id="college_tour" type="checkbox">
+        South india<input type="checkbox" id="college_tour">
+        Abroad<input id="college_tour" type="checkbox">
+        school tour service<input type="checkbox">
+
+       </td> 
+</tr>  
+<tr>
+  <td>
+    <label for="district">district</label></td>
+      <td>
+        <select name="district" id="">
+        <option value="district1">calicut</option>
+        <option value="district2">Malappuram</option>
+        <option value="district3">Thrissur</option>
+        <option value="district4">Wayanad</option>
+        <option value="district1">Kannur</option>
+      </select>
+
+  </td>
+
+
+</tr>
+<tr>
+    <td><label for="date">date</label></td>
+   <td><input name="date" type="date"></td> 
+</tr>
+
+
+
+
+<tr>
+    <td></td>
+    <td><input type="submit" value="ok"></td> 
+</tr>      
+
+        
+
+</table>       
+</form>
+
+<br>
+<a href="mywebsite.html"><button type="button" class="btn btn-primary">Back</button></a>
+
+    
+</body>
+</html>
