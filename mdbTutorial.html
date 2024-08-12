@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <link rel="stylesheet" href="bootstrap_1\css\bootstrap.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.20.0/js/mdb.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.20.0/css/mdb.min.css"></script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="carouselExampleIndicators" class="carousel slide" data-mdb-ride="carousel" data-mdb-carousel-init>
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-mdb-target="#carouselExampleIndicators"
+            data-mdb-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-mdb-target="#carouselExampleIndicators"
+            data-mdb-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-mdb-target="#carouselExampleIndicators"
+            data-mdb-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://mdbcdn.b-cdn.net/img/new/slides/041.webp" class="d-block w-100" alt="Wild Landscape"/>
+          </div>
+          <div class="carousel-item">
+            <img src="https://mdbcdn.b-cdn.net/img/new/slides/042.webp" class="d-block w-100" alt="Camera"/>
+          </div>
+          <div class="carousel-item">
+            <img src="https://mdbcdn.b-cdn.net/img/new/slides/043.webp" class="d-block w-100" alt="Exotic Fruits"/>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-mdb-target="#carouselExampleIndicators" data-mdb-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-mdb-target="#carouselExampleIndicators" data-mdb-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!-- caurosel wrapper -->
+
+      <div class="container">
+          <div class="row">
+            <div class="col-6">
+                <h1 class="text-center">Description</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea, sequi deleniti repellendus amet placeat repellat, sed
+                iusto doloribus suscipit nesciunt officia illo aut ipsam ipsum corrupti tempora commodi. Accusantium corrupti ipsum
+                consequuntur culpa facilis iure cupiditate sint id repudiandae? Laudantium ipsum odio dignissimos praesentium quo, iste
+                modi ab quos quae? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos voluptas odio delectus excepturi vel a exercitationem ipsa facere incidunt nobis deleniti debitis tenetur blanditiis dolorem sequi, sit dolore nulla aperiam commodi. Libero rerum architecto ipsam amet ipsum veniam eaque nisi dolore, reprehenderit accusantium in, nobis maiores molestias cumque exercitationem dicta temporibus reiciendis nemo mollitia saepe ipsa cupiditate hic error enim? Excepturi, consectetur blanditiis eveniet non commodi maiores. Obcaecati quo quasi libero, tempora incidunt earum aliquid quia nostrum amet eum ullam culpa nulla dolores quos velit fugiat deserunt ad, dolore a placeat, quisquam tempore! Voluptas eveniet, iusto rerum facilis odit optio.</p>
+            </div>
+            <div class="col-6">
+                <h1 class="text-center">image heading</h1>
+                <img src="img6.jpeg" class="w-100"  alt="unable to load" >
+    </div>
+            </div>
+
+    <div> <h3 class="text-center">Contact us</h3>
+            <div class="row">
+                <div class="col-6">
+                    <h4 class="text-center">login</h4>
+                    <form method="post" action="url">
+                        <form>
+                            <!-- Email input -->
+                            <div data-mdb-input-init class="form-outline mb-4">
+                              <input type="email" id="form2Example1" class="form-control" />
+                              <label class="form-label" for="form2Example1">Email address</label>
+                            </div>
+                          
+                            <!-- Password input -->
+                            <div data-mdb-input-init class="form-outline mb-4">
+                              <input type="password" id="form2Example2" class="form-control" />
+                              <label class="form-label" for="form2Example2">Password</label>
+                            </div>
+                          
+                            <!-- 2 column grid layout for inline styling -->
+                            <div class="row mb-4">
+                              <div class="col d-flex justify-content-center">
+                                <!-- Checkbox -->
+                                <div class="form-check">
+                                  <input class="form-check-input" type="checkbox" value="" id="form2Example34" checked />
+                                  <label class="form-check-label" for="form2Example34"> Remember me </label>
+                                </div>
+                              </div>
+                          
+                              <div class="col">
+                                <!-- Simple link -->
+                                <a href="#!">Forgot password?</a>
+                              </div>
+                            </div>
+                          
+                            <!-- Submit button -->
+                            <button data-mdb-ripple-init type="button" class="btn btn-primary btn-block mb-4">Sign in</button>
+                          
+                            <!-- Register buttons -->
+                            <div class="text-center">
+                              <p>Not a member? <a href="#!">Register</a></p>
+                              <p>or sign up with:</p>
+                              <button  data-mdb-ripple-init type="button" class="btn btn-secondary btn-floating mx-1">
+                                <i class="fab fa-facebook-f"></i>
+                              </button>
+                          
+                              <button  data-mdb-ripple-init type="button" class="btn btn-secondary btn-floating mx-1">
+                                <i class="fab fa-google"></i>
+                              </button>
+                          
+                              <button  data-mdb-ripple-init type="button" class="btn btn-secondary btn-floating mx-1">
+                                <i class="fab fa-twitter"></i>
+                              </button>
+                          
+                              <button  data-mdb-ripple-init type="button" class="btn btn-secondary btn-floating mx-1">
+                                <i class="fab fa-github"></i>
+                              </button>
+                            </div>
+                          </form>
+                        </form>
+                </div>
+                <div class="col-6 ">
+                    <h4 class="text-center">Description</h4>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3913.0258636510252!2d75.78132417481231!3d11.259507588920153!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba65b81a89bf5c3%3A0x57e54f0de54f9b60!2sOne%20Team%20Solutions%20-%20Best%20Digital%20Marketing%20Institute%20in%20Calicut%20%7C%20Python%20Courses%20%26%20Software%20Training%20Institute%20in%20Kerala!5e0!3m2!1sen!2sin!4v1723445829944!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+
+         
+      </div>
+   
+<script src="bootstrap_1\js\bootstrap.js"></script>   
+
+</body>
+</html>
